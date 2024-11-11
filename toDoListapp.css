@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: rgb(30, 85, 133);
+    background-color: antiquewhite;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1::before{
+    content: '';
+    position: absolute;
+    background-color: rgb(5, 63, 63);
+    width: 05px;
+    height: 05px;
+    border-radius: 50%;
+    right: 11px;
+    top: 60px;
+}
+
+.submit-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 4px  8px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: rgb(36, 136, 224);
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 8px 15px;
+}
+
+button{
+    font-size: 25px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    outline: none;
+    border: 1px solid aqua;
+    background-color: rgb(207, 192, 192);
+    color: rgb(36, 136, 224);
+    border: 1px solid black;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.orders-lists
+{
+    font-size: 27px;
+    background-color: rgb(255, 255, 255);
+    word-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin: 0px 0px 10px 10px;
+    border-radius: 15px;
+    gap: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(36, 136, 224);
+}
+
+#lists{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
